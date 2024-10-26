@@ -1,0 +1,68 @@
+
+/* Parte 2, Punto 1. Ejemplo básico:*/
+/* Estilo por etiqueta */
+p {
+    color: blue;
+    }
+    /* Estilo por clase */
+.container p {
+    color: green;
+    }
+    /* Estilo por ID */
+#parrafo {
+    color: red;
+}
+
+
+
+/* Parte 2, Punto 2.Demostracion de !important*/
+p {
+    color: rgb(114, 114, 221) /*!important*/;
+}
+#parrafo {
+    color: red;
+}
+    
+
+/* Parte 3, Ejercicio 1. Calculando la especifidad*/  
+/* Estilo por etiqueta */
+h1 {
+    color: blue;
+}
+    /* Estilo por clase */
+.content h1 {
+    color: green;
+}
+    /* Estilo por ID */
+#main h1 {
+    color: red;
+}
+
+
+/* Parte 3, Ejercicio 2. Resolviendo conflictos de especifidad*/
+#box p {
+    color: blue;
+}
+
+.content .text {
+    color: green;
+}
+
+#box .text{
+    color: yellow;
+}
+
+
+/* Parte 4, Desafio Final*/
+.header h1{
+    color: white;
+}
+
+.content p{
+    color: red;   
+}
+
+#footer p{
+    color: grey;
+}
+
