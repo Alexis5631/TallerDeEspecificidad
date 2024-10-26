@@ -4,7 +4,7 @@ Parte 1: Introducción Teórica a la Especificidad
     Introducción a los selectores básicos y cómo afectan la especificidad.
 
         Tabla de especificidad con diferentes tipos de selectores.
-        
+
         | Selector          | Descripción                | Ejemplo                              | Especificidad |
         |-------------------|----------------------------|--------------------------------------|---------------|
         | `*`               | Universal                  | `* { }`                              | 0             |
@@ -29,8 +29,8 @@ Parte 2: Ejemplos Prácticos
 
 Parte 3: Ejercicios Practicos
 1. Ejercicio 1: Calculando la Especifidad:
-    ¿Qué color tendrá el título <h1> ?
-        El color del titulo <h1> sera rojo, porque el selector ID tiene mayor especifidad
+    ¿Qué color tendrá el título h1 ?
+        El color del titulo h1 sera rojo, porque el selector ID tiene mayor especifidad
 
 2. Ejercicio 2: Resolviendo Conflictos de especifidad:
     agregamos un selector con mayor especifidad como 
@@ -43,9 +43,9 @@ Parte 4: Desafio Final
         Dales a los participantes un archivo HTML con múltiples elementos y clases, y pídeles que agreguen estilos CSS para lograr un diseño específico. Deberán aplicar todo lo aprendido sobre especificidad para resolver los conflictos y obtener el resultado correcto.
 
 Desafío CSS:
-    El <h1> en el .header debe ser de color blanco.
-    El texto del <p> en .content debe ser rojo.
-    El texto del <footer> debe ser gris.
+    El h1 en el .header debe ser de color blanco.
+    El texto del p en .content debe ser rojo.
+    El texto del footer debe ser gris.
 
     .header h1{
         color: white;
